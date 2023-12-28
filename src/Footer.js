@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-4 text-center">
       <div className="container mx-auto">
-        <p>&copy; {currentYear} Sudipa Biswas. All rights reserved.</p>
+        <p> Copyright &copy; {currentYear}. All rights reserved | Sudipa Biswas.</p>
       </div>
     </footer>
   );
