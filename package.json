@@ -1,8 +1,8 @@
 {
-  "homepage": "https://github.com/sudipapiku/TicTacToe-Using-React",
+  "homepage": "https://sudipapiku.github.io/TicTacToe",
   "name": "tic-tac-toe-reactjs",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "author": "Sudipa Biswas",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
