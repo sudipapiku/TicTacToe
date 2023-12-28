@@ -1,13 +1,25 @@
-const Footer = () => {
-    return (
-        <footer className="sticky bottom-0 py-6 bg-zinc-50">
-            <div className="max-w-7xl mx-auto px-3">
-                <div className="flex justify-center items-center">
-                    <span className="text-zinc-700 text-sm">&copy; Sudipa Biswas</span>
-                </div>
-            </div>
-        </footer>
-    )
-}
+import React, { useEffect, useState } from "react";
 
-export default Footer
+const Footer = () => {
+  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+
+  useEffect(() => {
+    // Update the current year every minute to handle the case where the year changes while the user is on the page
+    const intervalId = setInterval(() => {
+      setCurrentYear(new Date().getFullYear());
+    }, 60000);
+
+    // Clear the interval when the component unmounts
+    return () => clearInterval(intervalId);
+  }, []);
+
+  return (
+    <footer className="bg-gray-800 text-white py-4 text-center">
+      <div className="container mx-auto">
+        <p>&copy; {currentYear} Sudipa Biswas. All rights reserved.</p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
