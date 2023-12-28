@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/sudipapiku/TicTacToe-Using-React/static/css/main.459c6acc.css",
-    "main.js": "/sudipapiku/TicTacToe-Using-React/static/js/main.8366b66c.js",
-    "index.html": "/sudipapiku/TicTacToe-Using-React/index.html",
-    "main.459c6acc.css.map": "/sudipapiku/TicTacToe-Using-React/static/css/main.459c6acc.css.map",
-    "main.8366b66c.js.map": "/sudipapiku/TicTacToe-Using-React/static/js/main.8366b66c.js.map"
+    "main.css": "/sudipapiku/TicTacToe/static/css/main.459c6acc.css",
+    "main.js": "/sudipapiku/TicTacToe/static/js/main.8366b66c.js",
+    "index.html": "/sudipapiku/TicTacToe/index.html",
+    "main.459c6acc.css.map": "/sudipapiku/TicTacToe/static/css/main.459c6acc.css.map",
+    "main.8366b66c.js.map": "/sudipapiku/TicTacToe/static/js/main.8366b66c.js.map"
   },
   "entrypoints": [
     "static/css/main.459c6acc.css",
