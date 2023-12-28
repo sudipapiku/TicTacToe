@@ -105,11 +105,6 @@ const Board = () => {
       <div>
         <div className="max-w-7xl mx-auto px-3 py-8">
           <div className="grid md:grid-cols-1 grid-cols-1 gap-3 ">
-            {/* <div className="flex flex-col gap-y-12 items-center justify-center mt-3 ">
-              <h1 className="md:w-5/6 w-full text-5xl md:text-6xl font-bold text-zinc-700 item-center justify-center">
-                Tic-Tac-Toe
-              </h1>
-            </div> */}
             <div className="flex flex-col gap-y-12 items-center justify-center mt-3">
               <div className="flex flex-row gap-x-16">
                 <div className="flex flex-col items-center justify-center gap-y-2">
